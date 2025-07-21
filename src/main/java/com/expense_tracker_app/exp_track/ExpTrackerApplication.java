@@ -1,0 +1,13 @@
+package com.expense_tracker_app.exp_track;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ExpTrackerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ExpTrackerApplication.class, args);
+	}
+
+}
